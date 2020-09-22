@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rtde_config>
+	<recipe key="state">
+		<field name="runtime_state" type="UINT32"/>
+		<field name="actual_q" type="VECTOR6D"/>
+		<field name="output_bit_registers0_to_31" type="UINT32"/> 
+	</recipe>
+
+	<recipe key="set_q">
+		<field name="input_double_register_0" type="DOUBLE"/>
+		<field name="input_double_register_1" type="DOUBLE"/>
+		<field name="input_double_register_2" type="DOUBLE"/>
+		<field name="input_double_register_3" type="DOUBLE"/>
+		<field name="input_double_register_4" type="DOUBLE"/>
+		<field name="input_double_register_5" type="DOUBLE"/>
+	</recipe>
+
+	<recipe key="watchdog">
+		<field name="input_int_register_0" type="INT32"/> 
+	</recipe>
+
+</rtde_config>
